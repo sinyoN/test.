@@ -1,0 +1,106 @@
+@font-face{
+font-family: 'Open Sans Black.ttf';
+src: url("fonts/Open_Sans/OpenSans-Robot.Black.ttf");
+}
+
+@font-face{
+font-family: 'Open Sans Bold.ttf';
+src: url("fonts/Open_Sans/OpenSans-Robot.Bold.ttf");
+}
+
+@font-face{
+font-family: 'Open Sans Medium.ttf';
+src: url("fonts/Open_Sans/OpenSans-Robot.Medium.ttf");
+}
+
+@font-face{
+font-family: 'Open Sans Regular.ttf';
+src: url("fonts/Open_Sans/OpenSans-Robot.ttf");
+}
+
+body{
+	margin: 0;
+}
+#warrper{
+	width: 100%;
+	height: 500px;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+#row{
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+.card{
+	width: calc(100% /2);
+	height: 300px;
+	margin-top: 50%;
+	position: relative;
+	float: left;
+}
+.views{
+	width: calc(100% /3);
+	height: 5px;
+	float: left;
+}
+img{
+	width: 96%;
+	height: 230px;
+}
+h5{
+	width: 100%;
+	margin-left: 10px;
+	height: 0px;
+	color: #bfbfbf;
+}
+p{
+	width: 100%;
+	margin-left: 10px;
+	height: 33px;
+	color: #3d3d3d;
+}
+.discont{
+	width: 122px;
+	height: 25px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	border: 1px solid#fff;
+	border-radius: 15px;
+}
+.icon-small{
+	width: 15px;
+	margin-top: -101px;
+	margin-left: -70px;
+	
+}
+.solid{
+	width: calc(100% /2);
+	height: 0px;
+	text-align: center;
+	margin-left: 36px;
+	color: #bfbfbf;
+	float: left;
+}
+
+.solidd{
+	font-family: 'Open Sans Medium.ttf';
+	width: 254%;
+	height: 0px;
+	text-align: center;
+	margin-left: 15px;
+	color: #ffa500;
+	margin-top: 4px;
+	float: left;
+}
+.card-body{
+	width: 95%;
+	height: 118px;
+	margin-top: -5px;
+	border: 1px solid#b4b4b4;
+}
+
